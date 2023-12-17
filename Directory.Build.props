@@ -1,6 +1,11 @@
 <Project>
     <PropertyGroup>
+        <Authors>Finn Dührkop</Authors>
+        <Description>Provides a simple way to create self contained endpoints.</Description>
+        <PackageTags>endpoints, library, slim</PackageTags>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/devfinnd/SlimEndpoints</RepositoryUrl>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
