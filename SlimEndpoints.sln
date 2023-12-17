@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlimEndpoints", "source\SlimEndpoints\SlimEndpoints.csproj", "{F6101869-10D7-4DEE-99B3-F6A1C33FFFDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{DDAD2038-75D3-4687-8EB8-5E53DA9C149C}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{CA6581F9-A775-4929-8FDA-135850450BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6101869-10D7-4DEE-99B3-F6A1C33FFFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6101869-10D7-4DEE-99B3-F6A1C33FFFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6101869-10D7-4DEE-99B3-F6A1C33FFFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6101869-10D7-4DEE-99B3-F6A1C33FFFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6101869-10D7-4DEE-99B3-F6A1C33FFFDF} = {CA6581F9-A775-4929-8FDA-135850450BF2}
+	EndGlobalSection
+EndGlobal
