@@ -47,7 +47,7 @@ jobs:
         run: dotnet test --configuration Release
 
   deploy:
-    if: github.event_name == 'release' || github.event.inputs.deploy == true
+    if: github.event_name == 'release' || inputs.deploy == true
     runs-on: ubuntu-latest
     needs: [ run_test, create_package ]
     steps:
